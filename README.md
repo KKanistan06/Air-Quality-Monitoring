@@ -87,11 +87,11 @@ The system incorporates IoT-enabled sensors to collect real-time data on air qua
 | System design and initial testing                |       | 🟩    |       |       |       |        |        |        |        |        |
 | Hardware assembly                                 |       |       | 🟩    |       |       |        |        |        |        |        |
 | Firmware development                              |       |       |       | 🟩    |       |        |        |        |        |        |
-| Web application development and database setup   |       |       |       |       | 🟩    |        |        |        |        |        |
-| System testing and user interface refinement     |       |       |       |       |       | 🟩     |        |        |        |        |
-| Final integration and system debugging           |       |       |       |       |       |        | 🟩     |        |        |        |
-| Project documentation and preparation for presentation |       |       |       |       |       |        |        | 🟩     |        |        |
-| Final review and project submission              |       |       |       |       |       |        |        |        | 🟩     | 🟩     |
+| Web application development and database setup   |       |       |       |       | 🟩    |   🟩     |        |        |        |        |
+| System testing and user interface refinement     |       |       |       |       |       |      |     🟩   |        |        |        |
+| Final integration and system debugging           |       |       |       |       |       |        |      |   🟩     |        |        |
+| Project documentation and preparation for presentation |       |       |       |       |       |        |        |      |   🟩     |        |
+| Final review and project submission              |       |       |       |       |       |        |        |        |      | 🟩     |
 
 
 
