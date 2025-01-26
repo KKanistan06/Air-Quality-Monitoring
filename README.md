@@ -63,6 +63,14 @@ The system incorporates IoT-enabled sensors to collect real-time data on air qua
 - **Frontend**: Web-based visualization using HTML, CSS, and JavaScript.
 - **Data Security**: Token-based authentication for secure server communication.
 
+## Circuit Design
+
+### Gateway
+![Circuit Design 1](image1_url)
+
+### Sensor Node
+![Circuit Design 2](image2_url)
+
 ## Budget Overview
 | Component                       | Quantity | Price (LKR) |
 |---------------------------------|----------|-------------|
