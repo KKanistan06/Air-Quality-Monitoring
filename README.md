@@ -1,10 +1,10 @@
 # Air Quality Monitoring System
 
 ## Team Members
-- **2021E064**: Kanistan K. (2021e064@eng.jfn.ac.lk)
-- **2021E112**: Pogitha P. (2021e112@eng.jfn.ac.lk)
-- **2021E114**: Whysnavi P. (2021e114@eng.jfn.ac.lk)
-- **2021E142**: Kogulsiyam S. (2021e142@eng.jfn.ac.lk)
+- **Kanistan K.** (2021e064@eng.jfn.ac.lk)
+- **Pogitha P.** (2021e112@eng.jfn.ac.lk)
+- **Whysnavi P.** (2021e114@eng.jfn.ac.lk)
+- **Kogulsiyam S.** (2021e142@eng.jfn.ac.lk)
 
 ## Table of Contents
 - [Introduction](#introduction)
