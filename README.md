@@ -80,5 +80,5 @@ The system incorporates IoT-enabled sensors to collect real-time data on air qua
 
 ## Links
 - [Proposal Document (PDF)](path/to/proposal.pdf)
-- [GitHub Repository](http://kanistan.infinityfreeapp.com/?i=1)
+- [GitHub Repository](https://github.com/KKanistan06/Air-Quality-Monitoring)
 - [Department of Computer Engineering, University of Jaffna](https://www.eng.jfn.ac.lk/)
