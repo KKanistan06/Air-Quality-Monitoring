@@ -13,7 +13,8 @@
 4. [System Architecture](#system-architecture)
 5. [Hardware and Software Design](#hardware-and-software-design)
 6. [Budget Overview](#budget-overview)
-7. [Links](#links)
+7. [Timeline](#timeline)
+8. [Links](#links)
 
 ## Introduction
 Air pollution is a critical concern, particularly in urban regions with heavy traffic and industrial activity. This project, titled "Air Quality Monitoring System Based on Low Power Wide Area Network Technology at Public Transport Stops," addresses air quality issues in Kilinochchi by leveraging advanced IoT technologies and low-power communication systems.
