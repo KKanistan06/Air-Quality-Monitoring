@@ -69,7 +69,7 @@ The system incorporates IoT-enabled sensors to collect real-time data on air qua
 ![Circuit Design 1](https://github.com/KKanistan06/Air-Quality-Monitoring/blob/3c6f794bbc15c3285aef3bbcd11d1a1f674a2fbb/images/Gateway.png)
 
 ### Sensor Node
-![Circuit Design 2](image2_url)
+![Circuit Design 2](https://github.com/KKanistan06/Air-Quality-Monitoring/blob/630f0964184af43cbe427f04a0372ca60a7646a4/images/Sensor%20Node.png)
 
 ## Budget Overview
 | Component                       | Quantity | Price (LKR) |
