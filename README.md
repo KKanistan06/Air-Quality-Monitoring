@@ -92,5 +92,4 @@ This initiative aims to measure pollutant levels, such as particulate matter (PM
 ## Links
 - [Proposal Document (PDF)](path/to/proposal.pdf)
 - [Project Repository](#) *(Update with actual link)*
-- [Project Page](#) *(Update with actual link)*
 - [Department of Computer Engineering, University of Jaffna](#)
