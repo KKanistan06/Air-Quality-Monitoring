@@ -78,6 +78,24 @@ The system incorporates IoT-enabled sensors to collect real-time data on air qua
 | LoRa Ra-02 SX1278 Module        | 2        | 1,500       |
 | **Total**                       |          | **10,050**  |
 
+
+# Project Timeline
+
+This table outlines the activities and their respective timelines for the project.
+
+| Activity                                        |            Weeks             | 5  | 6  | 7  | 8  | 9  | 10 | 11 | 12 | 13 | 14 |
+|------------------------------------------------|-----------------------------|----|----|----|----|----|----|----|----|----|----|
+| Research and component procurement             |                             | ✔  | ✔  |    |    |    |    |    |    |    |    |
+| System design and initial testing              |                             |    | ✔  | ✔  |    |    |    |    |    |    |    |
+| Hardware assembly                              |                             |    |    | ✔  | ✔  |    |    |    |    |    |    |
+| Firmware development                           |                             |    |    |    | ✔  | ✔  |    |    |    |    |    |
+| Web application development and database setup |                             |    |    |    |    | ✔  | ✔  |    |    |    |    |
+| System testing and user interface refinement   |                             |    |    |    |    |    | ✔  | ✔  |    |    |    |
+| Final integration and system debugging         |                             |    |    |    |    |    |    | ✔  | ✔  |    |    |
+| Project documentation and preparation          |                             |    |    |    |    |    |    |    | ✔  | ✔  |    |
+| Final review and project submission            |                             |    |    |    |    |    |    |    |    | ✔  | ✔  |
+
+
 ## Timeline
 
 |---------------------------------------------------|                        Weeks                                                       |
