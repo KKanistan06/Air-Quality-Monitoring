@@ -66,7 +66,7 @@ The system incorporates IoT-enabled sensors to collect real-time data on air qua
 ## Circuit Design
 
 ### Gateway
-![Circuit Design 1](https://github.com/KKanistan06/Air-Quality-Monitoring/blob/0e062146f62a25425dc0196152b1992c8a740119/Images/Gateway.png)
+![Circuit Design 1](https://github.com/KKanistan06/Air-Quality-Monitoring/blob/3c6f794bbc15c3285aef3bbcd11d1a1f674a2fbb/images/Gateway.png)
 
 ### Sensor Node
 ![Circuit Design 2](image2_url)
