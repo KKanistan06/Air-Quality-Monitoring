@@ -78,6 +78,21 @@ The system incorporates IoT-enabled sensors to collect real-time data on air qua
 | LoRa Ra-02 SX1278 Module        | 2        | 1,500       |
 | **Total**                       |          | **10,050**  |
 
+## Timeline
+
+| **Activity**                                      | **5** | **6** | **7** | **8** | **9** | **10** | **11** | **12** | **13** | **14** |
+|---------------------------------------------------|-------|-------|-------|-------|-------|--------|--------|--------|--------|--------|
+| Research and component procurement               | 🟩    |       |       |       |       |        |        |        |        |        |
+| System design and initial testing                |       | 🟩    |       |       |       |        |        |        |        |        |
+| Hardware assembly                                 |       |       | 🟩    |       |       |        |        |        |        |        |
+| Firmware development                              |       |       |       | 🟩    |       |        |        |        |        |        |
+| Web application development and database setup   |       |       |       |       | 🟩    |   🟩     |        |        |        |        |
+| System testing and user interface refinement     |       |       |       |       |       | 🟩     |        |        |        |        |
+| Final integration and system debugging           |       |       |       |       |       |        | 🟩     |        |        |        |
+| Project documentation and preparation for presentation |       |       |       |       |       |        |        | 🟩     |        |        |
+| Final review and project submission              |       |       |       |       |       |        |        |        |      | 🟩     |
+
+
 ## Links
 - [Proposal Document (PDF)](https://github.com/KKanistan06/Air-Quality-Monitoring/blob/3c390ac6118165626f1457eac2c57851fc94d5e1/Project-Proposal.pdf)
 - [GitHub Repository](https://github.com/KKanistan06/Air-Quality-Monitoring)
