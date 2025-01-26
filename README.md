@@ -6,74 +6,71 @@
 - **Whysnavi P.** (2021e114@eng.jfn.ac.lk)
 - **Kogulsiyam S.** (2021e142@eng.jfn.ac.lk)
 
+# Air Quality Monitoring System
+
+## Team Members
+- **2021E064**: Kanistan K. (2021e064@eng.jfn.ac.lk)
+- **2021E112**: Pogitha P. (2021e112@eng.jfn.ac.lk)
+- **2021E114**: Member 3 (Email)
+- **2021E142**: Member 4 (Email)
+
 ## Table of Contents
-- [Introduction](#introduction)
-- [Problem Statement](#problem-statement)
-- [Solution](#solution)
-- [High-Level Architecture](#high-level-architecture)
-- [Hardware & Software Design](#hardware--software-design)
-- [Budget and Timeline](#budget-and-timeline)
-- [Links](#links)
+1. [Introduction](#introduction)
+2. [Problem Statement](#problem-statement)
+3. [Solution Overview](#solution-overview)
+4. [System Architecture](#system-architecture)
+5. [Hardware and Software Design](#hardware-and-software-design)
+6. [Budget Overview](#budget-overview)
+7. [Links](#links)
 
 ## Introduction
-Air pollution poses a significant threat to public health and sustainable development, particularly in urban areas with high vehicle density and industrial activity. The proposed project, "Air Quality Monitoring System Based on Low Power Wide Area Network Technology at Public Transport Stops," focuses on addressing this issue in Kilinochchi. Leveraging IoT technologies and low-power wide-area network (LPWAN) communication, the system will monitor air quality in real-time at public transport stops.
+Air pollution is a critical concern, particularly in urban regions with heavy traffic and industrial activity. This project, titled "Air Quality Monitoring System Based on Low Power Wide Area Network Technology at Public Transport Stops," addresses air quality issues in Kilinochchi by leveraging advanced IoT technologies and low-power communication systems.
 
-This initiative aims to measure pollutant levels, such as particulate matter (PM2.5/PM10), CO, and NO2, using low-cost sensors and LoRaWAN technology for data transmission. The data will be visualized through an interactive web platform, enabling informed decision-making to mitigate pollution and improve public health in the region. This project not only contributes to environmental monitoring but also establishes a scalable solution for air quality management in other urban and rural areas.
+The primary goal is to measure pollutants such as PM2.5, PM10, CO, and NO₂ using low-cost sensors. The collected data will be transmitted through LoRaWAN to a centralized server for analysis and visualization, empowering stakeholders to make data-driven decisions to mitigate pollution.
 
 ## Problem Statement
-- **Air Pollution at Public Transport Stops**: Public transport stops are hotspots for air pollution due to emissions from vehicles and high human activity, posing health risks to commuters and nearby residents.
-- **Lack of Real-Time Monitoring**: There is no real-time air quality monitoring system in Kilinochchi to track pollutant levels, making it difficult to identify and address pollution effectively.
+1. **Air Pollution at Public Transport Stops**:
+   Public transport stops are often hotspots for air pollution due to high vehicle emissions and increased human activity, posing health risks to commuters and nearby residents.
 
-## Solution
-- **IoT-Based Air Quality Monitoring**: Deploy IoT-enabled sensor nodes to measure pollutants like CO, NO2, PM2.5, and PM10, as well as temperature and humidity, in real-time.
-- **LoRaWAN Technology**: Use low-power, wide-area network (LoRaWAN) technology to ensure cost-effective and energy-efficient data transmission over long distances.
-- **Real-Time Monitoring Dashboard**: Develop a user-friendly application to visualize real-time and historical air quality data for stakeholders, including government authorities and the public.
-- **Scalability and Affordability**: Design a low-cost and scalable system tailored to the resource constraints of Kilinochchi, enabling future expansion to other locations.
-- **Informed Decision-Making**: Provide actionable insights to policymakers and environmental agencies for developing strategies to mitigate pollution at public transport stops.
+2. **Lack of Real-Time Monitoring**:
+   Kilinochchi lacks an efficient real-time monitoring system, making it challenging to measure and respond to pollution effectively.
 
-## High-Level Architecture
-### Sensor Nodes
-- Collect air quality data, such as concentrations of pollutants (e.g., CO, NO₂) and environmental parameters (e.g., temperature).
-- Use electrochemical sensors (e.g., MiCS 4514 for CO and NO₂) and temperature sensors (e.g., LM35).
-- Convert analog data into digital format for transmission.
+## Solution Overview
+The system incorporates IoT-enabled sensors to collect real-time data on air quality parameters and environmental conditions. These sensors, connected via LoRaWAN, transmit data to a remote server. The solution includes:
+- Real-time monitoring of pollutants and visualization on an interactive dashboard.
+- Scalability to deploy in various locations with minimal cost.
+- Actionable insights for policymakers and environmental agencies to mitigate pollution.
 
-### Gateway
-- Sensor nodes send collected data wirelessly to the gateway using LoRa technology.
-- Acts as a central hub to receive data packets from sensor nodes.
-- Integrated GSM/GPRS module for internet connectivity.
-- Relays processed data to a remote database via HTTP POST requests.
+## System Architecture
+### Components
+1. **Sensor Nodes**:
+   - Measure pollutants such as CO, NO₂, PM2.5, and PM10.
+   - Use electrochemical sensors and temperature sensors for accurate data collection.
 
-### Backend System
-- Centralized storage for all air quality data collected from sensor nodes.
-- MySQL database structure includes tables for sensor data, user management, and API token validation.
-- Gateway node establishes a GPRS connection.
-- Secure data transfer to the database using HTTP POST requests with API token authentication.
+2. **Communication Gateway**:
+   - Receives data from sensor nodes using LoRaWAN.
+   - Sends processed data to a centralized server via GSM/GPRS.
 
-### Web Application (Frontend and Backend)
-#### Frontend
-- Interactive web interface for users to view real-time air quality data.
-- Built using HTML, CSS, and JavaScript for dynamic interaction.
+3. **Backend System**:
+   - Stores data in a MySQL database.
+   - Ensures secure data transmission using token-based authentication.
 
-#### Backend
-- PHP and JavaScript handle data requests and logic for the web application.
-- Hosts API endpoints for data input and output.
+4. **Web Application**:
+   - Displays real-time and historical data using an intuitive user interface.
+   - Developed using HTML, CSS, and JavaScript.
 
-### Monitoring and Visualization
-- Web interface displays pollution levels, temperature, and trends.
-- Enables identification of pollution patterns and hotspots over time.
+## Hardware and Software Design
+### Hardware
+- **Sensors**: MQ-7 (CO), MiCS 4514 (CO, NO₂), PM2.5/PM10 sensors, LM35 (Temperature sensor).
+- **Communication Modules**: LoRaWAN, GSM/GPRS.
+- **Microcontroller**: ESP32 for seamless integration and control.
 
-## Hardware & Software Design
-### Key Components
-- **Sensors**: MQ-7 (CO), PM2.5/PM10, MiCS 4514 for CO and NO₂, LM35 (Temperature).
-- **Communication**: LoRaWAN and GSM Modules.
-- **Microcontroller**: ESP32 Platform.
-- **Software**: MySQL, Node.js, HTML, CSS, JavaScript.
+### Software
+- **Backend**: MySQL database and Node.js for data handling.
+- **Frontend**: Web-based visualization using HTML, CSS, and JavaScript.
+- **Data Security**: Token-based authentication for secure server communication.
 
-### Security Measures
-- Protect sensitive data from manipulation by factory owners.
-- Secure server storage using API token authentication.
-
-## Budget and Timeline
+## Budget Overview
 | Component                       | Quantity | Price (LKR) |
 |---------------------------------|----------|-------------|
 | MQ-7 Carbon Monoxide Sensor    | 1        | 430         |
@@ -91,5 +88,5 @@ This initiative aims to measure pollutant levels, such as particulate matter (PM
 
 ## Links
 - [Proposal Document (PDF)](path/to/proposal.pdf)
-- [Project Repository](#) *(Update with actual link)*
+- [GitHub Repository](#) *(Update with actual link)*
 - [Department of Computer Engineering, University of Jaffna](#)
