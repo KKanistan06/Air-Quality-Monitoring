@@ -81,4 +81,4 @@ The system incorporates IoT-enabled sensors to collect real-time data on air qua
 ## Links
 - [Proposal Document (PDF)](path/to/proposal.pdf)
 - [GitHub Repository](#) *([Click here](http://kanistan.infinityfreeapp.com/?i=1))*
-- [Department of Computer Engineering, University of Jaffna](#https://www.eng.jfn.ac.lk/)
+- [Department of Computer Engineering, University of Jaffna](https://www.eng.jfn.ac.lk/)
