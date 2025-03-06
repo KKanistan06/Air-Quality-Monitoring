@@ -1,13 +1,122 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+ margin: 0;
+font-family: 'Segoe UI',
+'Roboto',
+'Oxygen',
+'Ubuntu',
+sans-serif;
+background-color: #f4f4f4;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+  max-width: 100%;
+  margin: auto;
+  padding-bottom: 80px;
+}
+
+.cont {
+  max-width: 80%;
+  margin: auto;
+  padding-bottom: 80px;
+}
+
+/* Navbar Styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #003366;
+  color: white;
+  padding: 15px 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: right;
+  flex-grow: 1;
+  gap: 60px;
+  padding-right: 40px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section with Image */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
+  background-color: #e0f7fa;
+  border-radius: 10px;
+  margin: 20px auto;
+  width: 90%;
+}
+
+.hero-text {
+  max-width: 600px;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.hero-image {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
+
+/* Sensor Data Grid */
+.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: rgb(249, 254, 255);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(215, 215, 215, 0.1);
+  text-align: center;
+  transition: transform 0.2s;
+  color: #003366;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .grid-layout {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .nav-links {
+    gap: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .grid-layout {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 20px;
+    gap: 20px;
+  }
 }
